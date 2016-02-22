@@ -33,6 +33,8 @@ extern crate notify;
 #[macro_use]
 extern crate log;
 
+extern crate hprof;
+
 pub use self::middleware::Template;
 pub use self::middleware::HandlebarsEngine;
 pub use self::source::{Source, SourceError};
